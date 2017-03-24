@@ -1,8 +1,68 @@
-html {
+header{
+  background: url('images/starscape.jpg');
+  /*background-size: 80px 60px;*/
+  background-repeat: no-repeat;
+  background-size:cover;
+  height:500px;
+  display: flex;
+}
+
+header .header-content{
+  border: 5px solid black;
+  margin: auto;
+}
+
+
+.container{
+  height:500px;
+}
+
+.container section .row .item{
+  background: tomato;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+
+
+/*html {
   text-size-adjust: 100%;
 }
 
 body {
   margin: 0;
   font: 16px / 1 sans-serif;
+  background-image: url('images/starscape.jpg');
 }
+
+.textboxes {
+  display: flex;
+  justify-content: space-around;
+}
+.introstuff {
+  display:flex;
+  justify-content: center;
+}
+.socialmedia {
+  display: flex;
+  justify-content: space-around;
+}
+.getatme {
+  display: flex;
+  justify-content: center;
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+}
+.img {
+  border: 0.2em solid #fbe943;
+}*/
